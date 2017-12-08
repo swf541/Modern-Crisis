@@ -1,0 +1,30 @@
+# Must replace vanilla Central africa
+state={
+	id=515
+	name="STATE_515" #Central Africa as in the Central African Republic
+
+	state_category = city
+
+	history={
+		owner = CAR
+		add_core_of = CAR
+		victory_points = {
+			12830 5
+		}
+		victory_points = {
+			11012 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		12830 11012 
+	}
+	manpower=1082744
+	buildings_max_level_factor=1.000
+}

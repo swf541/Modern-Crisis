@@ -1,0 +1,31 @@
+
+state={
+	id=65
+	name="STATE_65"
+	manpower = 5592576
+	resources={
+		steel=90
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = DDR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		victory_points = {
+			514 20 
+		}
+		victory_points = {
+			3535 20 
+		}
+
+	}
+
+	provinces={
+		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+	}
+}

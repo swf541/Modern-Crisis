@@ -1,0 +1,39 @@
+ideologies = {
+		Democratic-Islamism = { 
+	
+		types = {
+		
+			democratic_islamism = {
+			}
+
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+		
+		color = { 0 228 8 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
